@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(#12c2e9, #c471ed, #0082c8);
+    width: 100vw;
+    height: 100vh;
+}
+
+.main {
+    width: 100vw;
+    height: 94vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.no {
+    background-color: #6e229a;
+    color: #A6C23F;
+}
+
+.dp {
+    background-color: #2e229a;
+    color: #A6C23F;
+}
+
+.one {
+    display: flex;
+}
+
+.two {
+    display: flex;
+}
+
+.three {
+    display: flex;
+}
+
+.four {
+    display: flex;
+}
+
+.five {
+    display: flex;
+}
+
+.six {
+    display: flex;
+}
+
+.nb {
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.signs {
+    background-color: #22489a;
+    color: #A6C23F;
+}
+
+.ad {
+    background-color: #9A228C;
+    width: 160px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #A6C23F;
+}
+
+input {
+    width: 320px;
+    height: 80px;
+    font-size: 3rem;
+    text-align: end;
+    border: 3px solid;
+    background: none;
+}
